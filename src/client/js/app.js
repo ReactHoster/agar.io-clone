@@ -533,7 +533,7 @@ window.cancelAnimFrame = (function(handle) {
 })();
 
 function animloop() {
-    global.animLoopHandle = window.requestAnimFrame(animloop);
+    //global.animLoopHandle = window.requestAnimFrame(animloop);
     gameLoop();
 }
 
