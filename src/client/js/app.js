@@ -14,7 +14,7 @@ var debug = function(args) {
 };
 
 if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-    global.mobile = true;
+    //global.mobile = true;
 }
 
 function startGame(type) {
@@ -533,7 +533,7 @@ window.cancelAnimFrame = (function(handle) {
 })();
 
 function animloop() {
-    //global.animLoopHandle = window.requestAnimFrame(animloop);
+    global.animLoopHandle = window.requestAnimFrame(animloop);
     gameLoop();
 }
 
