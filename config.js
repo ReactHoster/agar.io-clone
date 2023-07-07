@@ -24,7 +24,7 @@ module.exports = {
     maxVirus: 50,
     slowBase: 4.5,
     logChat: 0,
-    networkUpdateFactor: 40,
+    networkUpdateFactor: 1,
     maxHeartbeatInterval: 5000,
     foodUniformDisposition: true,
     virusUniformDisposition: false,
